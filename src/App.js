@@ -5,8 +5,9 @@ import React from 'react';
 import ParentClassComponent from './parentClassComponent';
 import MyComponent from './myComponent';
 import Album from './List1';
-import Book from './bookList2';
-
+import Book from './List2book';
+import City from './List3city';
+import Animal from './List4animal';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,8 @@ function App() {
       <MyComponent />
       <Album />
       <Book />
+      <City />
+      <Animal />
     </div>
   );
 }
