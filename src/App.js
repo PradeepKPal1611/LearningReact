@@ -8,6 +8,7 @@ import Album from './List1';
 import Book from './List2book';
 import City from './List3city';
 import Animal from './List4animal';
+import Person from './List5person';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Book />
       <City />
       <Animal />
+      < Person />
     </div>
   );
 }
